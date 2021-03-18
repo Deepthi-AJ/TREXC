@@ -137,7 +137,8 @@ function draw() {
       touches = []
     }
   }
-  
+  //camera.position.x=trex.x;
+  camera.position.y=trex.y;
   
   drawSprites();
 }
